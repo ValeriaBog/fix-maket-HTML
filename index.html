@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="row">
+        <div class="container">
+          <div class="logo">
+            <a href="#"
+              ><img class="img-logo" src="img/html5-logo.png" alt=" logo" width="60" />
+              <h1 class="title-logo">Site name/<br />description</h1></a
+            >
+          </div>
+
+          <nav class="main-list">
+            <ul class="list">
+              <li class="list-item"><a class="list-link" href="">Пункт меню</a></li>
+              <li class="list-item"><a class="list-link" href="">Пункт меню</a></li>
+              <li class="list-item"><a class="list-link" href="">Пункт меню</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <div class="rightnav">
+        <h3 class="rightnav-title">Категории</h3>
+        <ul class="widget-list">
+          <li class="widget-list-item"><a class="widget-list-link" href="">Header</a></li>
+          <li class="widget-list-item"><a class="widget-list-link" href="">Nav</a></li>
+          <li class="widget-list-item"><a class="widget-list-link" href="">Main</a></li>
+          <li class="widget-list-item"><a class="widget-list-link" href="">Aside</a></li>
+          <li class="widget-list-item"><a class="widget-list-link" href="">Footer</a></li>
+        </ul>
+      </div>
+
+      <main class="main">
+        <p>
+          Основное содержимое страницы оформляется в тег main. Это может быть одна статья, или
+          несколько превью статей если речь идет о странице блога с несколькими записями.
+        </p>
+
+        <article class="article">
+          <header class="article-header">
+            <h2 class="article-title">Элемент article</h2>
+            <time datetime="2015-09-30T15:25:55">30 Сентября</time>
+          </header>
+
+          <p class="text-article">
+            Используется для группировки записей — публикаций, статей, записей блога, комментариев.
+            Представляет собой независимый обособленный блок, предназначенный для многократного
+            использования, как правило, начинается с заголовка.
+          </p>
+          <footer class="footer-article">
+            <a class="footer-link-article" href="">0 комментариев</a>
+          </footer>
+        </article>
+
+        <article class="article">
+          <header class="article-header">
+            <h2 class="article-title">Элемент article</h2>
+            <time datetime="2015-09-30T15:25:55" pubdate>30 Сентября</time>
+          </header>
+
+          <p class="text-article">
+            Если на странице присутствует только одна статья с заголовком и текстовым содержимым,
+            она не нуждается в обёртке данным элементом
+          </p>
+
+          <footer class="footer-article">
+            <a class="footer-link-article" href="">0 комментариев</a>
+          </footer>
+        </article>
+      </main>
+    </div>
+
+    <footer class="footer-bottom clearfix">
+      <div class="footer-bottom-text">Информация о правах, контакты</div>
+    </footer>
+  </body>
+</html>
